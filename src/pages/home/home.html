@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Oferton</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+  <img src="https://cdn.pixabay.com/photo/2015/12/09/22/38/camera-1085705_960_720.png">
+  <br>
+  <br>
+  <div class="search">
+    <label class="item item-input">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="text" placeholder="Search">
+    </label>
+  </div>
+
+  <div class="button">
+    <br>
+    <button ion-button>Buscar</button>
+    <br>
+  </div> 
+
+  <div  class="button2">
+      <button ion-button [navPush]="ingresar">Ingresar</button>
+      <button ion-button [navPush]="registro">Registrar</button>
+  </div>
+
+
+
+</ion-content>
+
+
+
+
+
+https://javiergarciaescobedo.es/ionic/479-navegacion-entre-paginas-en-ionic
