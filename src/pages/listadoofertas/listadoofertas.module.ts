@@ -10,4 +10,25 @@ import { ListadoofertasPage } from './listadoofertas';
     IonicPageModule.forChild(ListadoofertasPage),
   ],
 })
-export class ListadoofertasPageModule {}
+export class ListadoofertasPageModule {
+  lista:Array<any>=[
+    {
+      imagen:"assets/imgs/coca cola.jpg",
+      descripcion:"Coca cola",
+      titulo:"cocacola",
+    },
+
+    {
+      imagen:"assets/imgs/fanta.png",
+      descripcion:"Fanta zul",
+      titulo:"Fanta",
+    },
+
+    {
+      imagen:"assets/imgs/sprite.png",
+      descripcion:"sprite",
+      titulo:"sprite",
+    }
+  ]
+
+}
